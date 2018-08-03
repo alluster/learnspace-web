@@ -18,6 +18,7 @@ import StudyTrack from './views/StudyTrack'
 import Home from "./views/Home";
 import Terms from "./views/Terms";
 import CourseCatalog from "./views/Coursecatalog";
+import WorldChallenge from "./views/WorldChallenge";
 
 // components
 import Footer from "./components/Footer";
@@ -100,6 +101,8 @@ class App extends Component {
           <Route path="/terms" exact component={Terms} />
           <Route path="/coursecatalog" exact render={() => <NavigationInverse authenticated={authenticated} userEmail={email} />} />
           <Route path="/coursecatalog" exact component={CourseCatalog} />
+          <Route path="/worldchallenge" exact render={() => <NavigationInverse authenticated={authenticated} userEmail={email} />} />
+          <Route path="/worldchallenge" exact component={WorldChallenge} />
           <Footer />
         </div>
 

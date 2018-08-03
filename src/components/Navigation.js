@@ -62,7 +62,11 @@ class Navigation extends Component {
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav pullRight>
-
+            <NavItem>
+                <NavLink to="/worldchallenge">
+                  <span className="small text-white"><h5><strong>World Challenge Competition</strong></h5></span>
+                </NavLink>
+              </NavItem>
             <NavItem>
                 <NavLink to="/coursecatalog">
                   <span className="small text-white"><h5><strong>Course catalog</strong></h5></span>
