@@ -19,41 +19,51 @@ class ListOfThings extends Component {
       }
       render() {
             return (
-                  <div className="container ">
-                        <div class="list-group">
-                              <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
-                                    <div class="d-flex w-100 justify-content-between">
-                                          <button className="btn btn-primary btn-sm pull-right">Continue track</button>
+                  <div class="list-group margin-top-50">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                              <div class="d-flex w-100 justify-content-between">
 
-                                          <h5 class="mb-1">Using Data driven software R and Python</h5>
-                                          <small>3 days ago</small>
+                                    <h3 class="mb-1">Using Data driven software R and Python</h3>
+                                    <small>3 days ago</small>
 
-                                    </div>
-                                    <p class="mb-1">The core of extensible programming is defining functions. Python allows mandatory and optional arguments, keyword arguments, and even arbitrary argument lists. More about defining functions in Python 3</p>
-                                    <small>Donec id elit non mi porta.</small>
-                              </a>
-                              <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                    <div class="d-flex w-100 justify-content-between">
-                                          <h5 class="mb-1">List group item heading</h5>
-                                          <small class="text-muted">3 days ago</small>
-                                    </div>
-                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                                    <small class="text-muted">Donec id elit non mi porta.</small>
-                              </a>
-                              <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                    <div class="d-flex w-100 justify-content-between">
-                                          <h5 class="mb-1">List group item heading</h5>
-                                          <small class="text-muted">3 days ago</small>
-                                    </div>
-                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                                    <small class="text-muted">Donec id elit non mi porta.</small>
-                              </a>
-                        </div>
+                              </div>
 
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                              <div class="d-flex w-100 justify-content-between">
+                                    <h4 class="mb-1">Creating a dataset for urban planning.</h4>
+                                    <small class="text-muted">3 days ago</small>
+                              </div>
+                              <button className="btn btn-primary btn-sm pull-right">Continue lecture</button>
 
+                              <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                              <small class="text-muted">Donec id elit non mi porta.</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                              <div class="d-flex w-100 justify-content-between">
+                                    <h4 class="mb-1">Using World Wind to generate prediction models for rapid weather changes.</h4>
+                                    <small class="text-muted">3 days ago</small>
+                              </div>
+                              <button className="btn btn-secondary btn-sm pull-right">Continue lecture</button>
 
+                              <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                              <small class="text-muted">Donec id elit non mi porta.</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                              <div class="d-flex w-100 justify-content-between">
+                                    <h4 class="mb-1">Documenting findings.</h4>
+                                    <small class="text-muted">3 days ago</small>
+                              </div>
+                              <button className="btn btn-secondary btn-sm pull-right">Continue lecture</button>
 
+                              <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                              <small class="text-muted">Donec id elit non mi porta.</small>
+                        </a>
                   </div>
+
+
+
+
             );
       }
 }

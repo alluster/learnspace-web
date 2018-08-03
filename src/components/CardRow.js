@@ -28,21 +28,22 @@ class CardRow extends Component {
 
       
 
-   <div className="container-gray ">
+   <div className=" ">
            <ScrollableAnchor id={'section1'}>
 
-        <div className=" margin-top-25 padding-bottom-50">
+        <div className=" padding-bottom-50">
             <Row>
             <Col md={4} sm={12} className="margin-top-50">
-              <div className="card"  >
-                <img className="card-img-top card-image" src={airpollution} alt="Card image cap" />
+            <div className="card"  >
+            <img className="card-img-top card-image" src={finnishdatahubsystem} alt="Card image cap" />
                 <div className="card-body">
-                  <h3 className="card-title">Air pollution research </h3>
-                  <p className="card-text">Using FMI data sets we will learn how to retrieve and use data conserning air pollution in a global scale.</p>
-                  <Link to="/studytrack" ><button class="btn btn-primary">Follow the learning track</button></Link>
+                  <h3 className="card-title">Urban Planning with World Wind</h3>
+                  <p className="card-text">Learn to use World Wind for research and combine learning with R and other statistics.</p>
+                  <Link to="/studytrack"><button class="btn btn-primary">Follow the learning track</button></Link>
                   </div>
               </div>
-            </Col>
+              </Col>
+           
             <Col md={4} sm={12} className="margin-top-50">
             <div className="card"  >
                 <img className="card-img-top card-image" src={weatherThumb} alt="Card image cap" />
@@ -86,17 +87,17 @@ class CardRow extends Component {
                   </div>
               </div>
               </Col>
-              
-            <Col md={4} sm={12} className="margin-top-50">
-            <div className="card"  >
-            <img className="card-img-top card-image" src={finnishdatahubsystem} alt="Card image cap" />
+              <Col md={4} sm={12} className="margin-top-50">
+              <div className="card"  >
+                <img className="card-img-top card-image" src={airpollution} alt="Card image cap" />
                 <div className="card-body">
-                  <h3 className="card-title">Using Finnish Data Hub System API's</h3>
-                  <p className="card-text">Learn to use FDHS for research and combine learning with R and other statistics.</p>
-                  <Link to="/studytrack"><button class="btn btn-primary">Follow the learning track</button></Link>
+                  <h3 className="card-title">Air pollution research </h3>
+                  <p className="card-text">Using FMI data sets we will learn how to retrieve and use data conserning air pollution in a global scale.</p>
+                  <Link to="/studytrack" ><button class="btn btn-primary">Follow the learning track</button></Link>
                   </div>
               </div>
-              </Col>
+            </Col>
+           
               </Row>
               
             {/* <div className="col-md-4 margin-top-50">

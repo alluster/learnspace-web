@@ -95,7 +95,7 @@ class Navigation extends Component {
                 :
                   <Nav>
                   <NavItem >
-                    <span className="text-white" className="small"><h5>{this.props.userEmail}</h5></span>
+                    <span className="text-white" className="small"><h5><strong>{this.props.userEmail}</strong></h5></span>
                   </NavItem>
                   <NavItem >
                     <span className="text-white" className="small"><h5><FontAwesomeIcon icon="user" size='1x' /></h5></span>

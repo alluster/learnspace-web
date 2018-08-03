@@ -66,7 +66,7 @@ class App extends Component {
   render() {
     const { authenticated, loading, email } = this.state;
     if (loading) {
-      return <div  className="loader-spinner"
+      return <div  className="loader-spinner-container"
       >
 
         <BarLoader

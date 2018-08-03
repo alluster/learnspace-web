@@ -119,9 +119,10 @@
 }
 .loader-spinner-container {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 50vw;
+  margin-right: 50vw;
   width: 40%;
+  margin-top:  50vh;
 }
 .particles {
   z-index: 40

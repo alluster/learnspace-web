@@ -81,7 +81,7 @@ class FrontPage extends Component {
 
                               </div>
                         </div>
-
+                  
 
                         <LogoRow />
                   
