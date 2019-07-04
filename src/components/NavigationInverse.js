@@ -51,7 +51,7 @@ class Navigation extends Component {
 
 
     return (
-      <div className="absolute" >
+      <div className="absolute">
         <Navbar className={`text-navbar-transparent ${!this.state.isTop ? 'navbar-transparent-scrolled' : ''}`} staticTop collapseOnSelect inverse>
           <Navbar.Header>
             <Navbar.Brand>

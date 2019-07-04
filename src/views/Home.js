@@ -17,7 +17,7 @@ import LogoRow from '../components/LogoRow'
 import Advert from '../components/Advert'
 
 
-//Login 
+//Login
 
 import { withRouter } from "react-router";
 import app from "../firebase";
@@ -62,7 +62,7 @@ class Home extends Component {
 
       render() {
             return (
-                  <div className="height-100 container ">
+                  <div className="height-80 container ">
                         <div className=" " >
                               <div className="height-80 ">
                                     <div >
@@ -76,7 +76,7 @@ class Home extends Component {
 
                               </div>
                         </div>
-                  
+
 
                         <CardRow />
                         <Advert />

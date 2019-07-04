@@ -17,7 +17,7 @@ import LogoRow from '../components/LogoRow'
 import Advert from '../components/Advert'
 
 
-//Login 
+//Login
 
 import { withRouter } from "react-router";
 import app from "../firebase";
@@ -64,16 +64,16 @@ class FrontPage extends Component {
 
       render() {
             return (
-                  <div className="height-100 margin-bottom-100 ">
+                  <div className="height-80 margin-bottom-100 ">
                         <img className="extra-image visible-lg visible-md" src={extra} />
                         <div className="background-hero margin-bottom-200 " >
-                              <div className="height-100 ">
+                              <div className="height-80">
                                     <div className=" text-white ">
                                           <div className=" vertical-align-center  absolute-hero">
                                                 <h1 className="hero-text">LEARNSPACE</h1>
                                                 <h2 className="margin-top-25">Learn to use data collections</h2>
                                                 <p className="margin-top-25"> Wide range of ready formatted data to use in research or development.  </p>
-                                                <a href='#section1'><Button className="margin-top-25 btn-primary btn btn-lg text-uppercase">Register now</Button></a>
+                                                <Link to="/signup"><Button className="margin-top-25 btn-primary btn btn-lg text-uppercase">Register now</Button></Link>
                                                 <div> <Link to="/orgview"><h4 className="margin-top-25" style={{ color: "#FC3D22", textDecoration: "underline" }} href="/orgview">Organizational user click here</h4>  </Link></div>
                                           </div>
                                     </div>
@@ -81,10 +81,10 @@ class FrontPage extends Component {
 
                               </div>
                         </div>
-                  
+
 
                         <LogoRow />
-                  
+
                   </div>
             );
       }

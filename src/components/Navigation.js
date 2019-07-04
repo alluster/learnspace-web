@@ -34,7 +34,7 @@ class Navigation extends Component {
     app.auth().signOut()
           .then(function () {
             return <Redirect to='/frontpage' />
-            
+
           })
           .catch(function (error) {
           });
@@ -53,7 +53,7 @@ class Navigation extends Component {
 
     return (
       <div className="absolute" >
-        <Navbar className={`text-navbar-transparent ${!this.state.isTop ? 'navbar-transparent-scrolled' : ''}`} fixedTop collapseOnSelect transparent bsStyle="transparent">
+        <Navbar className={`text-navbar-transparent ${!this.state.isTop ? 'navbar-transparent-scrolled' : ''}`} fixedTop collapseOnSelect  bsStyle="transparent">
           <Navbar.Header>
             <Navbar.Brand>
               <Link to="/"><h5 className="logo-font text-white">LEARNSPACE</h5></Link>
@@ -87,7 +87,7 @@ class Navigation extends Component {
                   </NavItem>
                   <NavItem>
                     <Link to="/signup">
-                      <button className="btn btn-primary btn-sm">Register as a user</button>
+                      <button className="btn btn-primary btn-sm">Register</button>
                     </Link>
                   </NavItem>
                   </Nav>
@@ -115,4 +115,3 @@ class Navigation extends Component {
 
 }
 export default Navigation;
-

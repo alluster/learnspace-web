@@ -31,7 +31,7 @@ class StudyTrack extends Component {
 
                                     <div className="margin-30">
                                           <p className="text-muted">Study Track:</p>
-                                          <h2>Development of smart Cities</h2>
+                                          <h2>Urban Planning with World Wind</h2>
                                           <h4>This study track provides an deep introduction to current Smart city development research. We will be using the World Wind Globe view as a tool to view global phenmena.</h4>
                                           <p>Combining information from multiple API's provided by ESA and NASA we will go trounght the basics of data science and start using data in our actual real life research. It is 
                                                 important to understand the needs for different tools when studying data science. This is why we have already created a tool box for you to download and utilize. 
@@ -42,9 +42,7 @@ class StudyTrack extends Component {
                                     <Globe 
                                     ref={this.globeRef}
                                     layers={layers}
-                                    latitude={34.2}
-                                    longitude={-119.2}
-                                    altitude={10}       />
+                                           />
                                     <ListOfThings />
                         </div>
                   </div>
