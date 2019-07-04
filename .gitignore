@@ -1,5 +1,4 @@
-firebase.js
 
 node_modules
-
+.env
 build
